@@ -1,0 +1,74 @@
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Arima+Madurai|Ribeye+Marrow|Sofia" rel="stylesheet"> 
+	
+#container {
+  height: 200px;
+  width: 700px;
+  position: fixed;
+  top: 8px;
+  left:350px;
+  
+}
+#box {
+  height: 2500px;
+  width: 700px;
+  position: fixed;
+  top: 300px;
+  left:350px;
+}
+#image {
+  position: fixed;
+    
+}
+#text {
+  z-index: 100;
+  position: fixed;
+  color: teal;
+  font-size: 84px;
+  font-weight: bold;
+  font-family: 'Great Vibes',cursive;
+  left: 450px;
+  top: -30px;
+  text-shadow: 0 0 1px #0000ff, 0 0 1px #0000FF;
+}
+    
+
+div {
+    width: 300px;
+	height: 2000px;
+	background-image:url('https://s25.postimg.org/6inmtwv4f/subtle_grunge_2_X.png');
+    background-repeat:repeat;
+	font-family:'Arima Madurai',cursive;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {color: blue;}
+}
+
+	
+}
+
+    
+    <!--
+    body {
+      color:#333333;
+      background-color:#FFFFD4;
+      background-image:url('Background Image');
+      background-repeat:no-repeat;
+    }
+    a  { color:#333399; }
+    
+    a:hover { color:#800080; }
+    a:active { color:#FF00FF; }
+    /* Don't underline links */
+    a:link {text-decoration: none;}
+    a:visited {text-decoration: none;}
+    -->
+    
